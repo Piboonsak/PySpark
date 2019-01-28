@@ -213,20 +213,3 @@ piboonsak@piboonsak-asus:~$ jupyter notebook
 ```
 <image src='python/pic/001_notebook_findspark.png'>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
