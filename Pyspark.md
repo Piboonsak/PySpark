@@ -1,12 +1,16 @@
 ## Pyspark Course
-**ref : https://datawookie.netlify.com/blog/2017/06/setting-up-jupyter-with-python-3-on-ubuntu/**
-check python version
+**ref : https://datawookie.netlify.com/blog/2017/06/setting-up-jupyter-with-python-3-on-ubuntu/**<br>
+
+## check python version
+```sh
 
 python
 quit()
+
 python3
 quit()
 
+```
 ### Install jupyter
 `sudo apt install -y python3 python3-pip ipython3`
   
@@ -27,11 +31,11 @@ Collecting ipywidgets (from jupyter)
     100% |████████████████████████████████| 112kB 2.6MB/s 
 Collecting jupyter-console (from jupyter)
 ```
+
 ### export execute path
-export PATH=$PATH:~/.local/bin/
+export PATH=$PATH:~/.local/bin/<br>
 
 **It’s a good idea to add that to one of your startup scripts, probably .bashrc.**
-
 
 ### Execution Time
 At this stage you should be ready to roll.
@@ -56,23 +60,25 @@ Created new window in existing browser session.
 
 ```
 ### copy token frist time.
-put url for first login
+put url for first login<br>
 
-**http://localhost:8888/?token=96486650701a3efbaa6dc02adcb87d0d6fadfa2367cb7863**
-Check and Stop it!
+**http://localhost:8888/?token=96486650701a3efbaa6dc02adcb87d0d6fadfa2367cb7863**<br>
+
+Check and Stop it!<br>
 
 ## Install JDK
-apt-get updaste
-apt-get install default-jre
+`apt-get update`
+`apt-get install default-jre`
 
-check java by
-java -version
+ ### check java by
+`java -version`
 
 ## Install scala
 
 `sudo apt-get install scala`
 
 <b>Check version</b>
+
 ```
 piboonsak@piboonsak-asus:~$ scala -version
 Scala code runner version 2.11.8 -- Copyright 2002-2016, LAMP/EPFL
@@ -92,10 +98,10 @@ Successfully installed py4j-0.10.8.1
 
 ## Install apache spark
 
-download at it website
-**ref : https://spark.apache.org/downloads.html**
+download at it website<br>
+**ref : https://spark.apache.org/downloads.html**<br>
 
-move file in home path and extract them
+move file in home path and extract them<br>
 
 ## then export paramitter
 
