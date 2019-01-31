@@ -37,6 +37,31 @@ export PATH=$PATH:~/.local/bin/<br>
 
 **It’s a good idea to add that to one of your startup scripts, probably .bashrc.**
 
+`nano .bashrc`
+
+```
+root@piboonsak-asus:~# nano .bashrc
+```
+*The path is upon your keep the file floders*<br>
+```
+export PATH=$PATH:~/.local/bin/
+export SPARK_HOME='home/piboonsak/spark-2.4.0-bin-hadoop2.7'
+export PATH=$SPARK_HOME:$PATH
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+export PYSPARK_DRIVER_PYTHON="jupyter"
+export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+export PYSPARK_PYTHON=python3
+
+```
+Don't forget source file .bashrc<br>
+```
+root@piboonsak-asus:~# source .bashrc
+root@piboonsak-asus:~# echo $SPARK_HOME
+home/piboonsak/spark-2.4.0-bin-hadoop2.7
+
+```
+Great!<br>
+
 ### Execution Time
 At this stage you should be ready to roll.
 
