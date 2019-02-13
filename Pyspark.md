@@ -243,5 +243,5 @@ piboonsak@piboonsak-asus:~$ jupyter notebook
 
 ```
 
-<img src="PySpark/pic/001_notebook_findspark.png">
+<img src='PySpark/pic/001_notebook_findspark.png'>
 
