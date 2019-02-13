@@ -242,5 +242,6 @@ piboonsak@piboonsak-asus:~$ jupyter notebook
 [I 17:19:40.867 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 
 ```
-<image src='python/pic/001_notebook_findspark.png'>
+
+<img src="PySpark/pic/001_notebook_findspark.png">
 
