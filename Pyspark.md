@@ -247,3 +247,7 @@ piboonsak@piboonsak-asus:~$ jupyter notebook
 
 <img src='PySpark/pic/001_notebook_findspark.png'>
 
+## To use pyspark.ml must install numpy before 
+!!Must sudo !!
+
+`sudo pip3 install numpy`
