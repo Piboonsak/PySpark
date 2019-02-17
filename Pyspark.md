@@ -44,7 +44,7 @@ piboonsak@piboonsak-asus::~# nano .bashrc
 ```
 *The path is upon your keep the file floders*<br>
 ```
-export PATH=$PATH:~/.local/bin/    # '~' Mean /home of user that running pyspark that mean '/home/piboonsak' not '/root'  
+export PATH=$PATH:~/.local/bin/
 export SPARK_HOME='home/piboonsak/spark-2.4.0-bin-hadoop2.7'
 export PATH=$SPARK_HOME:$PATH
 export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
@@ -53,6 +53,8 @@ export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
 export PYSPARK_PYTHON=python3
 
 ```
+<h4><a color = red> '~' Mean /home of user that running pyspark that mean '/home/piboonsak' not '/root'  </a></h4>
+
 Don't forget source file .bashrc<br>
 ```
 piboonsak@piboonsak-asus:~# source .bashrc
